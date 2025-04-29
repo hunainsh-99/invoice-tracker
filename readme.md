@@ -10,14 +10,23 @@ An end-to-end data pipeline and visualization toolkit for the CFIB Business Baro
 ## Features
 
 - **Raw-to-Tidy Pipeline** (`scripts/load_barometer.py`)
+
   - Reads CFIB’s `CFIB_MBB-data-donnes-YYYY-MM.xlsx`, extracts dates & metrics from `Dtfile_new`, pivots into a long format `data/processed/national_index.csv`.
+
 - **Static Visualization** (`scripts/plot_static.py`)
+
   - Uses matplotlib to create:
+  
     - **Long-term & short-term outlook** over the last decade (`images/outlook_trends.png`)
+
     - **Sector breakdown** for the most recent month (`images/sector_snapshot.png`)
+
 - **Interactive Dashboard** (`app.py`)
+
   - Streamlit app to filter and chart any metric interactively.
+
 - **Infographic-ready Assets**
+
   - Static images saved to `images/` for use in reports and social media.
 
 ---
