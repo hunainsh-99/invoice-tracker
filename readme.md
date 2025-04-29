@@ -104,10 +104,7 @@ cfib-confidence-tracker/
 
 ---
 
-## Next Steps
-- Add **provincial** and **sectoral** slicing via separate CSVs and dropdowns
-- Deploy to **Streamlit Cloud** and link live demo in this README
-- Create **infographic layouts** in InDesign/Illustrator using `images/` assets
+
 
 
 
